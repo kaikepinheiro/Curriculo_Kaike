@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Currículo Kaike" />
+  <title>Kaike Currículo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+    <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+  <!-- CURSOR CUSTOMIZADO -->
+  <div class="cursor" id="custom-cursor"></div>
+  <div class="cursor-dot" id="custom-cursor-dot"></div>
+
+  <!-- NAV SUPERIOR -->
+  <nav class="nav" id="navbar">
+    <a href="#top" class="nav-logo">Minha Biografia</a>
+    
+    <div class="nav-links" id="nav-links">
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#academica" class="nav-link">Acadêmica</a>
+      <a href="#profissional" class="nav-link">Profissional</a>
+      <a href="#certificacoes" class="nav-link">Certificações</a>
+      <a href="#contato" class="btn-nav">Vamos conversar</a>
+      
+      <!-- BOTÃO DE TEMA -->
+      <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="5"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Botão Mobile -->
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <header id="top" class="hero">
+      <div class="hero-content reveal">
+        <h1>Olá, sou o<br>Kaike.</h1>
+        <p class="hero-sub">
+          Sou desenvolvedor web, técnico em informática, universitário, te convido a conhecer mais sobre mim abaixo.
+        </p>
+        <a href="#contato" class="btn-primary magnetic">Converse comigo</a>
+      </div>
+      <div class="hero-image-wrapper reveal">
+        <img src="assets/foto.jpg" alt="Foto Kaike" class="hero-foto" />
+      </div>
+    </header>
+
+    <div class="divider reveal"></div>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section reveal">
+      <h2>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-7 8-7s8 3 8 7"/></svg>
+        Sobre mim
+      </h2>
+      <p>
+        Sou desenvolvedor(a) focado(a) em criar experiências web que unem código limpo e design intencional. Acredito que a tecnologia deve ser simples, acessível e bonita.
+      </p>
+      <p>
+        Atualmente trabalho com [suas stacks], sempre buscando resolver problemas reais com soluções elegantes.
+      </p>
+    </section>
+
+    <!-- ACADÊMICA -->
+    <section id="academica" class="section reveal">
+      <h2>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg>
+        Formação Acadêmica
+      </h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-date">2025 — 2027 (previsto)</span>
+          <div class="timeline-content">
+            <h3>Técnólogo em Informática para Negócios</h3>
+            <p class="timeline-sub">Fatec Mauá</p>
+            <div class="tags"><span class="tag">TI</span>
+              <span class="tag">Administração</span>
+            </div>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-date">2022 — 2024</span>
+          <div class="timeline-content">
+            <h3>Técnico em Informática</h3>
+            <p class="timeline-sub">Etec Prof° Maria Cristina Medeiros</p>
+            <div class="tags"><span class="tag">TI</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROFISSIONAL -->
+    <section id="profissional" class="section reveal">
+      <h2>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+        Experiência Profissional
+      </h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-date">Out 2026 — Presente</span>
+          <div class="timeline-content">
+            <h3>Assistênte Administrativo (Departamento de TI)</h3>
+            <p class="timeline-sub">Instituto de previdência municipal de São Paulo</p>
+            <ul>
+              <li>HelpDesk - Resolução de chamados.</li>
+              <li>Criação e atualização de sistemas.</li>
+              <li>Administração com planilhas.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">VS Code</span>
+              <span class="tag">Office 365</span>
+              <span class="tag">Manipulação de IA</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICAÇÕES -->
+    <section id="certificacoes" class="section reveal">
+      <h2>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.5 13l1.5 8-5-3-5 3 1.5-8"/></svg>
+        Certificações
+      </h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-header">
+            <h3>Técnico de Informática</h3>
+            <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+          </div>
+          <p class="card-sub">2024</p>
+          <a href="[link]" target="_blank" class="card-link">Ver certificado</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTATO + FORMULÁRIO -->
+    <section id="contato" class="section reveal">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            Vamos conversar?
+          </h2>
+          <p>Estou disponível para novos projetos e oportunidades. Me mande uma mensagem ou me encontre nas redes.</p>
+          
+          <div class="social-links">
+            <a href="https://linkedin.com/in/kaike-pinheiro-simplicio-534b19252" target="_blank" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14m-.5 15.5v-5.3a3.26 3.26 0 00-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 011.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 001.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 00-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            </a>
+            <a href="https://github.com/kaikepinheiro" target="_blank" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 002 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
+            </a>
+            <a href="mailto:kaikepsimplicio4@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- FORMULÁRIO (Usando Formspree) -->
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/xdeejrba" method="POST">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required placeholder="Seu nome completo" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="seu@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Escreva sua mensagem aqui!"></textarea>
+          </div>
+          
+          <button type="submit" class="btn-primary btn-submit magnetic" id="submit-btn">
+            <span class="btn-text">Enviar mensagem</span>
+            <span class="btn-loading" style="display: none;">
+              <svg class="spinner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/></svg>
+              Enviando...
+            </span>
+            <span class="btn-success" style="display: none;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              Mensagem enviada!
+            </span>
+          </button>
+          
+          <p id="form-error" class="form-error" style="display: none;"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> - Kaike Pinheiro Simplicio.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
